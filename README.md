@@ -47,4 +47,4 @@ fastboot reboot
 ```
 
 ## ⚖️ License
-The Python patcher and shell scripts are completely open-source and free to share. Do not upload your stock `.img` or patched `.bin` files to public repositories to avoid DMCA takedowns.
+The Python patcher and shell scripts are completely open-source and free to share.
