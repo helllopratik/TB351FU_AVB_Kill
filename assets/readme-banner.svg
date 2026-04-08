@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="70" x2="1470" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A2A3D"/>
+      <stop offset="0.52" stop-color="#0D1827"/>
+      <stop offset="1" stop-color="#171520"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(330 240) rotate(30) scale(480 340)">
+      <stop stop-color="#29D6BF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#29D6BF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1230 180) rotate(12) scale(360 280)">
+      <stop stop-color="#FFB95E" stop-opacity="0.78"/>
+      <stop offset="1" stop-color="#FFB95E" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shield" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#3CE7CA"/>
+      <stop offset="1" stop-color="#FFB95E"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#132537"/>
+      <stop offset="1" stop-color="#1C3148"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" rx="44" fill="url(#bg)"/>
+  <rect width="1600" height="900" rx="44" fill="url(#glowA)"/>
+  <rect width="1600" height="900" rx="44" fill="url(#glowB)"/>
+  <g opacity="0.16" stroke="#D7F6FF">
+    <path d="M90 722C318 608 511 694 697 619C886 543 959 364 1148 330C1301 302 1414 355 1511 443"/>
+    <path d="M91 781C290 679 488 742 665 684C877 614 977 449 1167 418C1299 395 1400 433 1490 509"/>
+  </g>
+  <g transform="translate(936 170)">
+    <rect x="0" y="0" width="442" height="300" rx="28" fill="#0B1320" fill-opacity="0.62" stroke="#D5F9F4" stroke-opacity="0.18"/>
+    <rect x="28" y="34" width="164" height="18" rx="9" fill="#2DE0C6" fill-opacity="0.18"/>
+    <rect x="28" y="72" width="386" height="58" rx="18" fill="#111C2D" stroke="#29D6BF" stroke-opacity="0.26"/>
+    <rect x="52" y="93" width="142" height="16" rx="8" fill="#2DE0C6"/>
+    <rect x="212" y="93" width="160" height="16" rx="8" fill="#FFB95E" fill-opacity="0.68"/>
+    <rect x="28" y="152" width="386" height="58" rx="18" fill="#111C2D" stroke="#29D6BF" stroke-opacity="0.26"/>
+    <rect x="52" y="173" width="166" height="16" rx="8" fill="#2DE0C6"/>
+    <rect x="236" y="173" width="136" height="16" rx="8" fill="#FFB95E" fill-opacity="0.68"/>
+    <rect x="28" y="232" width="386" height="40" rx="14" fill="#132031"/>
+    <rect x="52" y="245" width="264" height="14" rx="7" fill="#EAF7FF" fill-opacity="0.84"/>
+  </g>
+  <g transform="translate(132 178)">
+    <path d="M257 0L454 64V237C454 356 368 455 257 483C146 455 60 356 60 237V64L257 0Z" fill="#0D1524" stroke="url(#shield)" stroke-width="14"/>
+    <path d="M257 80L367 116V231C367 299 320 362 257 389C194 362 147 299 147 231V116L257 80Z" fill="#152338"/>
+    <path d="M255 145C212 145 177 180 177 223C177 298 255 356 255 356C255 356 333 298 333 223C333 180 298 145 255 145Z" fill="url(#shield)" fill-opacity="0.95"/>
+    <path d="M237 223L252 238L282 204" stroke="#08111B" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(472 412)">
+    <rect x="0" y="0" width="380" height="246" rx="30" fill="url(#chip)" stroke="#D6F7F3" stroke-opacity="0.14"/>
+    <rect x="40" y="36" width="300" height="174" rx="22" fill="#0E1725" stroke="#29D6BF" stroke-opacity="0.24"/>
+    <g stroke="#29D6BF" stroke-opacity="0.58" stroke-width="6">
+      <path d="M70 72H128"/>
+      <path d="M70 112H156"/>
+      <path d="M70 152H132"/>
+      <path d="M252 72H310"/>
+      <path d="M224 112H310"/>
+      <path d="M248 152H310"/>
+    </g>
+    <g stroke="#FFB95E" stroke-opacity="0.58" stroke-width="6">
+      <path d="M164 72H216"/>
+      <path d="M184 112H206"/>
+      <path d="M154 152H226"/>
+    </g>
+    <g fill="#E9F7FF" fill-opacity="0.92" font-family="'Space Grotesk', 'Segoe UI', sans-serif" font-weight="700">
+      <text x="42" y="278" font-size="72">TB351FU</text>
+      <text x="42" y="344" font-size="46" fill="#2DE0C6">AVB Kill</text>
+    </g>
+  </g>
+  <g fill="#EEF8FF" font-family="'Space Grotesk', 'Segoe UI', sans-serif">
+    <text x="120" y="120" font-size="36" opacity="0.72">Lenovo Tab Plus</text>
+    <text x="118" y="760" font-size="70" font-weight="700">Disable AVB verification</text>
+    <text x="118" y="818" font-size="34" opacity="0.8">Patch vbmeta, vbmeta_system and vbmeta_vendor for TB351FU bring-up</text>
+  </g>
+</svg>
