@@ -146,6 +146,10 @@ the device can rebuild it with the patched vbmeta configuration.
 - [lenovo_tb351fu_bootloader_unlock](https://github.com/helllopratik/lenovo_tb351fu_bootloader_unlock)
 - [lenovo_flash_xml_helper_TB351FU](https://github.com/helllopratik/lenovo_flash_xml_helper_TB351FU)
 
+## Acknowledgements
+ - Maintainer: `Pratik Gondane (@helllopratik)`
+ - Device: `Lenovo Tab Plus (2024) TB351FU`
+
 ## License
 
 The Python patcher, shell script, and README assets in this repository are open-source and free
